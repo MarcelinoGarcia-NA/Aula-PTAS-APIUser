@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 const port = 3333;
 app.use(express.json());
-app.listen(port, () => { console.log(`Run server...${port}`) });
+app.listen(3333, () => { console.log(`Run server...${port}`) });
 
 app.get('/', (req,res) => res.send("API-USER"));
 
