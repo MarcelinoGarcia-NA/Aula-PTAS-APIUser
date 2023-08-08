@@ -6,6 +6,7 @@ const sequelize = new Sequelize(
     timetamps: true,
     underscored: true,
   },
+  dialectModule: pg
 });
 
 try {
